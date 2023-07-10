@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "FAuditor"
+  favicon: logo.png
+  page-footer: "Copyright 2023, Stewart Li" 
+  open-graph: true
+  # margin-header: subscribe.html
+  site-url: https://www.myblogexample.io
+  description: "A great sample blog"
+  navbar:
+    back-to-top-navigation: true
+    search: true
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: blog.qmd
+        text: Blog
+      - icon: rss  
+        href: blog.xml
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    highlight-style: espresso
+    toc: true
+
+editor: source
+

@@ -1,0 +1,14 @@
+---
+title: "Post With Code"
+description: "Post description"
+author: "Stewart Li"
+date: "8/3/2023"
+categories:
+  - news
+  - code
+  - analysis
+---
+
+
+This is my first post. 
+

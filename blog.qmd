@@ -1,0 +1,15 @@
+---
+title: "Audit Data Analytics"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  feed: true
+  sort-ui: false
+  filter-ui: true
+  page-size: 36
+page-layout: full
+title-block-banner: true
+---
+

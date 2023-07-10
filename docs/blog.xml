@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>FAuditor</title>
+<link>https://www.myblogexample.io/blog.html</link>
+<atom:link href="https://www.myblogexample.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>A great sample blog</description>
+<generator>quarto-1.2.335</generator>
+<lastBuildDate>Wed, 02 Aug 2023 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Stewart Li</dc:creator>
+  <link>https://www.myblogexample.io/posts/my_first_post/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is my first post.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://www.myblogexample.io/posts/my_first_post/index.html</guid>
+  <pubDate>Wed, 02 Aug 2023 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

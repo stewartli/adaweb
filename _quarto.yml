@@ -3,16 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "FAuditor"
-  favicon: logo.png
-  page-footer: "Copyright 2023, Stewart Li" 
+  title: "Audit Data Analytics"
+  description: "Audit Data Analytics"
+  favicon: asset/favicon.ico
   open-graph: true
-  # margin-header: subscribe.html
-  site-url: https://www.myblogexample.io
-  description: "A great sample blog"
+  site-url: https://stewartli.github.io/adaweb/
+  page-navigation: true
+  margin-header: supp/subscribe.html
   navbar:
     back-to-top-navigation: true
     search: true
+    logo: asset/logo-small.png
     right:
       - href: index.qmd
         text: Home
@@ -20,17 +21,37 @@ website:
         text: About
       - href: blog.qmd
         text: Blog
-      - icon: rss  
+  page-footer: 
+    background: "#ECF2FF"
+    left: |
+      &copy; 2023 [Stewart Li](index.qmd)
+    center: 
+      - icon: github
+        href: https://github.com/stewartli
+      - icon: twitter
+        href: https://twitter.com/stewartli3
+      - icon: linkedin
+        href: https://www.linkedin.com/in/stewart-li-30a11563/
+      - icon: youtube
+        href: https://www.youtube.com/channel/UCtnEyNiMdWnKhMdy5XwELLA
+      - icon: rss
         href: blog.xml
-
+    right: |
+      [Cookie Preferences]{#open_preferences_center}    
+  google-analytics:
+    anonymize-ip: true
+    tracking-id: "G-26J8FF86S6"
+  cookie-consent: true
+  
 format:
   html:
-    theme: 
-      light: cosmo
-      dark: darkly
+    theme: [yeti]
     css: styles.css
-    highlight-style: espresso
-    toc: true
-
 editor: source
+execute:
+  freeze: auto
+  
+  
+  
+
 

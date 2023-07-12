@@ -1,3 +1,12 @@
+comments:
+    giscus:
+      repo: stewartli/adaweb
 freeze: true
-title-block-banner: 'red'
-
+page-layout: article
+title-block-banner: false
+toc: true
+toc-depth: 2
+toc-location: left
+code-fold: true
+code-overflow: wrap
+highlight-style: arrow

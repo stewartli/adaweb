@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.myblogexample.io/about.html</loc>
-    <lastmod>2023-07-10T07:49:51.675Z</lastmod>
+    <loc>https://stewartli.github.io/adaweb/about.html</loc>
+    <lastmod>2023-07-12T04:57:22.732Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/blog.html</loc>
-    <lastmod>2023-07-10T07:49:53.295Z</lastmod>
+    <loc>https://stewartli.github.io/adaweb/blog.html</loc>
+    <lastmod>2023-07-12T04:58:37.667Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/index.html</loc>
-    <lastmod>2023-07-10T07:49:58.124Z</lastmod>
+    <loc>https://stewartli.github.io/adaweb/index.html</loc>
+    <lastmod>2023-07-12T04:56:23.115Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/posts/my_first_post/index.html</loc>
-    <lastmod>2023-07-10T07:49:59.417Z</lastmod>
+    <loc>https://stewartli.github.io/adaweb/posts/my_first_post/index.html</loc>
+    <lastmod>2023-07-12T04:56:27.383Z</lastmod>
   </url>
 </urlset>

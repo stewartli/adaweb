@@ -1,16 +1,51 @@
 ---
-title: "Stewart Li"
+title: "Stewart Li (MCom|BSc|CA)"
+subtitle: >
+  employ data analytics to achieve the audit effectiveness and efficiency
 about:
-  image: profile.jpg
+  image: ./asset/stpic2.jpg
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
-    - icon: github
-      text: Github
-      href: https://github.com
+    - icon: key-fill
+      text: Academic Paper
+      href: https://www.emerald.com/insight/content/doi/10.1108/MEDAR-06-2020-0920/full/html
+    - icon: book-fill
+      text: eBook Data Analytics
+      href: https://stewartli.github.io/rauditbookdown/
+    - icon: bi-bag-check-fill
+      text: Dashboard Demo
+      href: https://stewartli.github.io/tailwindcss/
 ---
+
+
+<style>
+
+#quarto-margin-sidebar{
+    display: none;
+}
+
+#quarto-document-content a{
+    text-decoration: none;
+}
+
+</style>
+
+
+**Programming languages**: R, Python, SQL, Rust, C++,       
+<marquee>[**Download CV**](https://github.com/stewartli/ada_tutorial/blob/master/tutorials/7_report.pdf)</marquee>
+
+
+>Audit Data Analytics is the science and art of discovering and analyzing patterns,       
+>identifying anomalies, and extracting other useful information in data underlaying     
+>or related to the subject matter of an audit through analysis, modeling, and     
+>visualization for the purpose of planning or performing the audit.                             
+>--- [AICPA](https://www.aicpa-cima.com/topic/audit-assurance/audit-data-analytics#:~:text=Audit%20Data%20Analytics%20is%20the,planning%20or%20performing%20the%20audit.)
+
+
+
+
+
+
 
 
 

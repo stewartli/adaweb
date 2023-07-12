@@ -1,23 +1,37 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Stewart Li (MCom|BSc|CA)",
+    "section": "",
+    "text": "Programming languages: R, Python, SQL, Rust, C++,\nDownload CV\n\nAudit Data Analytics is the science and art of discovering and analyzing patterns,\nidentifying anomalies, and extracting other useful information in data underlaying\nor related to the subject matter of an audit through analysis, modeling, and\nvisualization for the purpose of planning or performing the audit.\n— AICPA"
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Audit Data Analytics",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nPost description\n\n\n\nStewart Li\n\n\nAug 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "fauditor",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMy first post\n\n\n\n\n\n\n\nIdea\n\n\nR\n\n\n\n\nSee if the website works properly\n\n\n\n\n\n\nJul 12, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/my_first_post/index.html",
     "href": "posts/my_first_post/index.html",
-    "title": "Post With Code",
+    "title": "My first post",
     "section": "",
-    "text": "This is my first post."
+    "text": "Hello world! This is my first post here."
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#news",
+    "href": "posts/my_first_post/index.html#news",
+    "title": "My first post",
+    "section": "",
+    "text": "Hello world! This is my first post here."
+  },
+  {
+    "objectID": "posts/my_first_post/index.html#rpython",
+    "href": "posts/my_first_post/index.html#rpython",
+    "title": "My first post",
+    "section": "R/Python",
+    "text": "R/Python\n\n\nCode\ndf_r &lt;- head(mtcars[1:4])\nsummary(df_r)\n\n\n      mpg             cyl         disp             hp       \n Min.   :18.10   Min.   :4   Min.   :108.0   Min.   : 93.0  \n 1st Qu.:19.27   1st Qu.:6   1st Qu.:160.0   1st Qu.:106.2  \n Median :21.00   Median :6   Median :192.5   Median :110.0  \n Mean   :20.50   Mean   :6   Mean   :211.8   Mean   :117.2  \n 3rd Qu.:21.30   3rd Qu.:6   3rd Qu.:249.8   3rd Qu.:110.0  \n Max.   :22.80   Max.   :8   Max.   :360.0   Max.   :175.0  \n\n\n\n\nCode\nimport pandas as pd\ndf_py = r.df_r\ndf_py.describe()\n\n\n             mpg       cyl        disp          hp\ncount   6.000000  6.000000    6.000000    6.000000\nmean   20.500000  6.000000  211.833333  117.166667\nstd     1.766352  1.264911   89.903096   29.088944\nmin    18.100000  4.000000  108.000000   93.000000\n25%    19.275000  6.000000  160.000000  106.250000\n50%    21.000000  6.000000  192.500000  110.000000\n75%    21.300000  6.000000  249.750000  110.000000\nmax    22.800000  8.000000  360.000000  175.000000"
   }
 ]

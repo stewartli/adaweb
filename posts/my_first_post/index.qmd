@@ -1,14 +1,39 @@
 ---
-title: "Post With Code"
-description: "Post description"
+title: "My first post"
+description: "See if the website works properly"
 author: "Stewart Li"
-date: "8/3/2023"
+date: today
 categories:
-  - news
-  - code
-  - analysis
+  - Idea
+  - R
 ---
 
 
-This is my first post. 
+## News
+
+
+Hello world! This is my first post here. 
+
+
+## R/Python
+
+
+```{r}
+#| echo: false
+#| warning: false
+library(reticulate)
+```
+
+
+```{r}
+df_r <- head(mtcars[1:4])
+summary(df_r)
+```
+
+
+```{python}
+import pandas as pd
+df_py = r.df_r
+df_py.describe()
+```
 

@@ -5,31 +5,88 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>FAuditor</title>
-<link>https://www.myblogexample.io/blog.html</link>
-<atom:link href="https://www.myblogexample.io/blog.xml" rel="self" type="application/rss+xml"/>
-<description>A great sample blog</description>
-<generator>quarto-1.2.335</generator>
-<lastBuildDate>Wed, 02 Aug 2023 16:00:00 GMT</lastBuildDate>
+<title>Audit Data Analytics</title>
+<link>https://stewartli.github.io/adaweb/blog.html</link>
+<atom:link href="https://stewartli.github.io/adaweb/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Audit Data Analytics</description>
+<generator>quarto-1.3.353</generator>
+<lastBuildDate>Tue, 11 Jul 2023 16:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code</title>
+  <title>My first post</title>
   <dc:creator>Stewart Li</dc:creator>
-  <link>https://www.myblogexample.io/posts/my_first_post/index.html</link>
+  <link>https://stewartli.github.io/adaweb/posts/my_first_post/index.html</link>
   <description><![CDATA[ 
 
 
 
+<section id="news" class="level2">
+<h2 class="anchored" data-anchor-id="news">News</h2>
+<p>Hello world! This is my first post here.</p>
+</section>
+<section id="rpython" class="level2">
+<h2 class="anchored" data-anchor-id="rpython">R/Python</h2>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">df_r <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>(mtcars[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>])</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">summary</span>(df_r)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>      mpg             cyl         disp             hp       
+ Min.   :18.10   Min.   :4   Min.   :108.0   Min.   : 93.0  
+ 1st Qu.:19.27   1st Qu.:6   1st Qu.:160.0   1st Qu.:106.2  
+ Median :21.00   Median :6   Median :192.5   Median :110.0  
+ Mean   :20.50   Mean   :6   Mean   :211.8   Mean   :117.2  
+ 3rd Qu.:21.30   3rd Qu.:6   3rd Qu.:249.8   3rd Qu.:110.0  
+ Max.   :22.80   Max.   :8   Max.   :360.0   Max.   :175.0  </code></pre>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> pd</span>
+<span id="cb3-2">df_py <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> r.df_r</span>
+<span id="cb3-3">df_py.describe()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>             mpg       cyl        disp          hp
+count   6.000000  6.000000    6.000000    6.000000
+mean   20.500000  6.000000  211.833333  117.166667
+std     1.766352  1.264911   89.903096   29.088944
+min    18.100000  4.000000  108.000000   93.000000
+25%    19.275000  6.000000  160.000000  106.250000
+50%    21.000000  6.000000  192.500000  110.000000
+75%    21.300000  6.000000  249.750000  110.000000
+max    22.800000  8.000000  360.000000  175.000000</code></pre>
+</div>
+</div>
 
-<p>This is my first post.</p>
 
-
+</section>
 
  ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://www.myblogexample.io/posts/my_first_post/index.html</guid>
-  <pubDate>Wed, 02 Aug 2023 16:00:00 GMT</pubDate>
+  <category>Idea</category>
+  <category>R</category>
+  <guid>https://stewartli.github.io/adaweb/posts/my_first_post/index.html</guid>
+  <pubDate>Tue, 11 Jul 2023 16:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
